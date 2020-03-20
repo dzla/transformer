@@ -10,11 +10,11 @@ is_wholenumber(x)
 \item{x}{Numeric vector of values to be tested.}
 }
 \value{
-Logical vector.
+Logical vector. Returns TRUE or FALSE depending on whether its argument is whole number or not.
 }
 \description{
 Check whole number
 }
 \examples{
-is.integer(1)
+is_wholenumber(1)
 }
